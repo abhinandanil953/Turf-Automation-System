@@ -1,0 +1,374 @@
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c8043f;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #020202;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ec0a2c;
+    color: white;
+    cursor: pointer;
+    padding: 2%;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #e0ff47;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+/*Menu css*/
+.menu{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.menulist ul{
+    list-style-type: none;
+}
+.menulist ul li{
+    display: inline;
+    padding: 1%;
+}
+.menulist ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(244, 18, 67);
+}
+.menulist ul li a:hover{
+    color:rgb(7, 5, 5);
+}
+.wrapper{
+    padding: 2%;
+    width: 80%;
+    margin:0 auto;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo-img{
+    width:50px;
+}
+/*Footer csss*/
+.footer{
+    background-color: rgb(247, 6, 50);
+    color: aliceblue;
+    text-align: center;
+}
+/* CSS for Social */
+.social{
+    text-align: center;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* CSS for now showing */
+.nowshowing{
+    background-color: #ececec;
+    padding: 3% 0;
+}
+.upcoming{
+    padding: 3% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+/* CSS for book-show */
+.book-show{
+    background-color: #ececec;
+    padding: 3% 0;
+}
+.book-show-box{
+    width: 90%;
+    margin: 1%;
+    padding: 2%;
+    margin-left: 4%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.book-show-img{
+    width: 50%;
+    float: left;
+}
+
+.book-show-desc{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+}
+
+.book-show-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.book-show-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* booking form*/
+.form1-container{
+    border:1px solid;
+    width:25%;
+    margin:2% auto;
+    padding: 1%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+/*review Area*/
+.reviewarea{
+    border: 1px solid black;
+}
+.review-box{
+    width: 80%;
+    margin: 1%;
+    padding: 2%;
+    margin-left: 10%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.successmessage{
+    color:rgb(240, 11, 7);
+    font-weight: bolder;
+}
+.errormessage{
+    color:red;
+    font-weight: bolder;
+}
+/*datebutton*/
+.currentshows{
+    background-color: #ececec;
+}
+.datebutton{
+    text-align: center;
+}
+.datebutton ul{
+    list-style-type: none;
+}
+.datebutton ul li{
+    background-color: #ec0a2c;
+    color: white;
+    cursor: pointer;
+    padding: 2%;
+    display: inline;
+    margin-left: 10%;
+}
+.datebutton ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.datebutton ul li a:hover{
+    color:rgb(7, 5, 5);
+}
+.tbl-full{
+    width: 100%;
+}
+table tr td{
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 10%;
+}
+.bookbtn{
+    background-color: red;
+    color:white;
+    padding: 3%;
+    margin-bottom: 0%;
+    border-radius: 5px;
+}
+.trailer{
+   text-decoration: none; 
+   background-color: #f65252;
+   color:white;
+   padding: 2%;
+   font-weight:bolder ;
+   font-style: italic;
+}
+.aboutus{
+    background-color: #ececec;
+    color:#ec0a2c;
+    padding: 5%;
+}
+.aboutusright{
+    width: 40%;
+    float: right;
+}
+.aboutusright{
+    width: 40%;
+    float: left;
+}
+.avgrating{
+    color: black;
+}
+/*table css*/
+table.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+/* Style table headers */
+table.styled-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 12px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+/* Style table rows */
+table.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table.styled-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Style table cells */
+table.styled-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Hover effect for rows */
+table.styled-table tr:hover {
+  background-color: #d4d4d4;
+}
+
+/* Style the "BOOK NOW" button */
+.secondarybtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.slotexpbtn {
+    background-color: #be0505;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+
+.secondarybtn:hover {
+  background-color: #0056b3;
+}
+.slotexpbtn:hover {
+    background-color: #f95c5c;
+  }

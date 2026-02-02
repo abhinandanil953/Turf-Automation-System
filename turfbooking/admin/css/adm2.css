@@ -1,0 +1,29 @@
+body{
+    background: url('football.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    border:1px solid;
+    width:20%;
+    margin:10% auto;
+    padding: 2%;
+    text-align: center;
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+h1{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.loginbutton{
+    background-color: rgb(26, 4, 224);
+    width: 40%;
+    text-decoration: none;
+    color:white;
+    padding: 2%;
+    font-weight: bolder;
+    border-radius: 5px;
+}
